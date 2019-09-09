@@ -1,0 +1,95 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[top=0in, bottom=0in, left=0in, right=0in]{geometry}
+\renewcommand{\baselinestretch}{1.25}
+\usepackage{titlesec}
+\usepackage{multicol}
+\usepackage{pifont}
+\usepackage[most]{tcolorbox}
+
+
+\tcbset{
+    frame code={}
+    center title,
+    left=0pt,
+    right=0pt,
+    top=5pt,
+    bottom=5pt,
+    colback=blue,
+    colframe=blue,
+    width=\dimexpr\textwidth\relax,
+    enlarge left by=0mm,
+    boxsep=5pt,
+    arc=0pt,outer arc=0pt,
+    }
+
+
+\begin{document}
+\begin{tcolorbox}
+\begin{center}
+\textsc{
+\textcolor{white}{
+\textbf{\huge{Brandon Fitzpatrick}}\\
+\textbf{400 S Jennings Ave, Unit 218, Fort Worth, TX 76104}\\
+\textbf{\underline{brandon.fitzpatrick8154@gmail.com}} \ding{169} \textbf{(978) 726-8154} \ding{169} \textbf{\underline{https://github.com/brandonfitzy}}\\
+}
+}
+
+\end{center}
+\end{tcolorbox}
+\begin{flushleft}
+
+\hspace{5 mm}\textbf{\textcolor{blue}{Education}}\\
+\hspace{5 mm}\textbf{Bachelor of Arts in Mathematics and Philosophy}
+ - Emmanuel College - Boston, MA - 5/19\\
+\hspace{20 mm}\ding{169} Double major in mathematics and philosophy with a 3.5 GPA.\\
+\hspace{20 mm}\ding{169} Graduated with distinction in the field of philosophy.\\
+\hspace{20 mm}\ding{169} PR officer of Math Club and president of Philosophy Club.\\
+\hspace{20 mm}\ding{169} Cross Country, Indoor, and Outdoor Track \& Field athlete.\\
+\hspace{20 mm}\ding{169} Paper accepted into Emmanuel College Philosophy Conference.\\
+\hspace{20 mm}\ding{169} Short story \textit{The Last Summit} published in The Saintly Review, Vol. 4, 2019.\\
+\bigskip
+\hspace{5 mm}\textbf{\textcolor{blue}{Experience}}\\
+\hspace{5 mm}\textbf{Software Test Intern} - Common Sensing, Inc - Cambridge, MA - 6/19-9/19\\
+\hspace{20 mm}\ding{169} Tested the functionally and integration of their mobile app through manual software testing.\\
+\hspace{20 mm}\ding{169} Wrote detailed bug reports in Jira for the software development team.\\
+\hspace{20 mm}\ding{169} Learned C programming for unit testing of firmware, Unity framework (xUnit).\\
+\hspace{20 mm}\ding{169} Assisted the automation engineer with designing and implementing software tests. \\
+\medskip
+\hspace{5 mm}\textbf{Seasonal Park Guide} - Lowell National Historical Park - Lowell, MA - 6/15-8/17\\
+\hspace{20 mm}\ding{169} Planned and conducted tours of Lowell's historical cultural resources.\\
+\hspace{20 mm}\ding{169} Greeted and assisted visitors planning their day.\\
+\hspace{20 mm}\ding{169} Staffed and maintained federal sites according to standard operating procedures. \\
+\medskip
+\hspace{5 mm}\textbf{Sales Associate} - Recreation Equipment, Inc - Boston, MA - 8/16-8/19\\
+\hspace{20 mm}\ding{169} Trained new employees in the camping and climbing department.\\
+\hspace{20 mm}\ding{169} Outfitted customers with gear and supplies for their outdoor adventures.\\
+\bigskip
+\hspace{5 mm}\textbf{\textcolor{blue}{Skills}}\\
+\hspace{5 mm}\textbf{Software Testing}\\
+\hspace{20 mm}\ding{169} Unit, integration, system, functional, regression, white box, and black box testing.\\
+\hspace{20 mm}\ding{169} Test planning, implementation, documentation, and tracing.\\
+\hspace{20 mm}\ding{169} Test automation with Selenium Webdriver and IDE (beginner).\\
+\hspace{5 mm}\textbf{Programming}\\
+\hspace{20 mm}\ding{169} Experience with C, Java, MATLAB, and Python (beginner).\\
+\hspace{5 mm}\textbf{Software Tools}\\
+\hspace{20 mm}\ding{169} Jira, Jama, Github, Git, Qualio, and Microsoft Suite.\\
+\bigskip
+\hspace{5 mm}\textbf{\textcolor{blue}{Hobbies and Interests}}\\
+\hspace{20 mm}\ding{169} Appalachian Trail Thruhike 2018,
+Eagle Scout 2014, Arduino hobbyist.\\
+\bigskip
+\end{flushleft}
+\begin{tcolorbox}
+\textsc{
+\begin{center}
+\textcolor{white}{
+\textbf{
+Brandon Fitzpatrick \ding{169} (978) 726-8154 \ding{169} \underline{brandon.fitzpatrick8154@gmail.com}}
+\bigskip
+}
+\end{center}
+}
+\end{tcolorbox}
+\thispagestyle{empty}
+\end{document}
